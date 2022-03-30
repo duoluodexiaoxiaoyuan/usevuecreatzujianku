@@ -1,0 +1,22 @@
+.m-card {
+  width: 270px;
+  border-radius: 8px;
+  background: white;
+  overflow: hidden;
+  box-shadow: 0 6px 10px gray;
+  padding-bottom: 8px;
+  // 等效.m-card-img
+  &-img {
+    height: 152px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &-summary {
+    padding: 8px;
+    text-align: left;
+    font-size: 14px;
+  }
+}
